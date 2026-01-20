@@ -23,6 +23,8 @@
 
 }
 
+
+
 .navbar ul li {
     height: 19px;
     padding-right: 32px;
@@ -63,6 +65,20 @@ nav button {
     border-radius: 10000px;
 }
 
+
+.gradian {
+
+    background: -webkit-linear-gradient(90deg,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
 /* herro */
 
 .hero-section {
@@ -97,6 +113,8 @@ nav button {
     text-align: center;
     display: flex;
     justify-content: center;
+    background-image: url(../assets/hero-circle.png);
+    background-size: cover;
 
 }
 
@@ -350,7 +368,7 @@ nav button {
 
 .flex-card {
     background-color: #250D44;
-    border-radius: 0 0 24px 24px;
+    border-radius: 24px 24px 24px 24px;
 }
 
 .flex-card h2 {
@@ -382,6 +400,8 @@ nav button {
     gap: 24px;
 
 }
+
+
 
 .Host {
     padding: 40px;
@@ -421,6 +441,7 @@ nav button {
     align-items: center;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -470,6 +491,7 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 .foter-flex div span {
@@ -494,6 +516,11 @@ footer h1 {
 .navbar img {
     display: none;
 
+}
+
+iframe {
+    width: 380px;
+    border-radius: 24px 24px 0 0;
 }
 
 /* mobile css code hear */
@@ -854,12 +881,21 @@ footer h1 {
 
 
 
+}
 
 
+button:hover {
+    background-color: gray;
 
+}
 
+.navbar button:hover,
+.gradian-button:hover {
 
-
+    background: -webkit-linear-gradient(90deg,
+            #ada872 0%,
+            #da77bc 51%,
+            #9a68bd 100%);
 
 
 }
