@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+/* header */
+.navbar {
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+    border-bottom: 1 solid #412567;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+
+}
+
+.navbar ul li {
+    height: 19px;
+    padding-right: 32px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar h2 {
+
+    height: 32px;
+    color: white;
+}
+
+
+
+.inter-fornt {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav button {
+    background: linear-gradient(90deg,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10000px;
+}
+
+/* herro */
+
+.hero-section {
+    position: relative;
+
+    background-color: #1A0B2E;
+    background-image: url(../assets/hero-bg.png);
+    text-align: center;
+    align-items: center;
+    height: 760px;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+}
+
+.round {
+
+    background: linear-gradient(90deg,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    align-items: center;
+    border: 5px solid #2A186C;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.round img {
+    height: 175px;
+    width: 116.67px;
+}
+
+.round-section {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.batch {
+    position: absolute;
+    background-color: #00FF88;
+    color: #1A0B2E;
+
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    right: 25px;
+       box-shadow: 0 3px 27px 0 #00FF88;
+
+
+}
+
+.hero-section h3 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.Hero-descipison {
+
+    color: #FFFFFF;
+
+    font-size: 16;
+    font-weight: 200;
+}
+
+
+
+.gradian-button {
+    background: linear-gradient(90deg,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+    color: #fff;
+    border: none;
+   padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.gradian-button img {
+
+    color: #fff;
+    text-align: center;
+
+}
+
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.transparant-button {
+    background: transparent;
+    border: 2px solid #00FF88;
+    color: #00FF88;
+    
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.transparant-button img {
+
+    color: #fff;
+    text-align: center;
+
+}
