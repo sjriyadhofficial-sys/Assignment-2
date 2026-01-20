@@ -11,7 +11,7 @@
     justify-content: space-around;
     align-items: center;
     height: 92px;
-    border-bottom: 1 solid #412567;
+    border-bottom: 1px solid #412567;
 }
 
 .navbar ul {
@@ -327,6 +327,7 @@ nav button {
     background-color: #1A0B2E;
     padding: 120px 200px;
     text-align: center;
+
 }
 
 .episodes .titel {
@@ -388,35 +389,103 @@ nav button {
     border-radius: 20px;
     height: 280px;
 }
-.info h2{
+
+.info h2 {
     color: #ffffff;
     font-size: 32px;
     font-weight: bold;
     height: 39px;
 }
 
-.info p{
+.info p {
     color: #ffffff;
     line-height: 24px;
     font-weight: 200;
+    margin-bottom: 16px;
 }
-.icons{
+
+.icons {
     display: flex;
     align-items: center;
     text-align: center;
     gap: 8px;
-  
+
 }
 
-.socile{
-  border-radius: 50px;
-  height: 40px;
-  width: 40px;
-  border: 2px solid #533C72;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  
+.socile {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #533C72;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
 }
 
+.host-main .main-titel {
+    margin-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+.host-main {
+    margin: 70px 0;
+    width: 100%;
+}
+
+footer{
+   padding: 120px 120px;
+    background-image: url(../assets/footer-bg.png);
+    
+    
+    
+    text-align: center;
+  
+   
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+}
+
+.foter-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+ margin: 32px;
+}
+.foter-flex div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.foter-flex div span{
+    color: #FFFFFF;
+    font-weight: 200;
+
+   
+}
+
+
+footer p{
+    color: white;
+    font-weight: 200;
+}
+
+footer h1{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
