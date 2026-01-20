@@ -64,7 +64,7 @@ nav button {
 /* herro */
 
 .hero-section {
-    position: relative;
+  
 
     background-color: #1A0B2E;
     background-image: url(../assets/hero-bg.png);
@@ -197,4 +197,20 @@ nav button {
     color: #fff;
     text-align: center;
 
+}
+
+.about-section{
+    text-align: center;
+    background-color: #1A0B2E;
+    height: 646px;
+   
+}
+
+main{
+ margin-top: 0;
+}
+
+
+main{
+ margin-top: 0;
 }
