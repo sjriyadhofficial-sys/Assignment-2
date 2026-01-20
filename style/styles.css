@@ -209,5 +209,52 @@ nav button {
     text-align: center;
     background-color: #1A0B2E;
     height: 646px;
+ 
+   
 
+}
+.about-section h2{
+   color: #FFFFFF;
+   font-size: 48px;
+   font-weight: bold;
+   height: 58px;
+   margin-bottom: 16px;
+
+}
+
+.about-section p{
+   color: #FFFFFF;
+   text-align: center;
+   margin-bottom: 16px;
+   font-weight: 200;
+
+}
+
+.about {
+  padding: auto 400px;
+   margin: 0 300px;
+
+}
+
+.status-data{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: auto 200px;
+    align-items: center;
+   
+}
+
+.status-data div{
+  
+  padding: auto 16px 4px;
+}
+
+.Space{
+    margin: 80px 200px;
+    border: 1px solid rgba(112, 111, 111, 0.678);
+}
+
+.status-data div h2{
+color: #00FF88;
 }
