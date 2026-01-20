@@ -72,7 +72,8 @@ nav button {
             #F7E93F 0%,
             #FB09B4 51%,
             #9100F8 100%);
-    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
