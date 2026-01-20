@@ -209,52 +209,117 @@ nav button {
     text-align: center;
     background-color: #1A0B2E;
     height: 646px;
- 
-   
 
-}
-.about-section h2{
-   color: #FFFFFF;
-   font-size: 48px;
-   font-weight: bold;
-   height: 58px;
-   margin-bottom: 16px;
+
 
 }
 
-.about-section p{
-   color: #FFFFFF;
-   text-align: center;
-   margin-bottom: 16px;
-   font-weight: 200;
+.about-section h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    height: 58px;
+    margin-bottom: 16px;
+
+}
+
+.about-section p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 200;
 
 }
 
 .about {
-  padding: auto 400px;
-   margin: 0 300px;
+    padding: auto 400px;
+    margin: 0 300px;
 
 }
 
-.status-data{
+.status-data {
     display: flex;
     justify-content: space-between;
     gap: 80px;
     margin: auto 200px;
     align-items: center;
-   
+
 }
 
-.status-data div{
-  
-  padding: auto 16px 4px;
+.status-data div {
+
+    padding: auto 16px 4px;
 }
 
-.Space{
+.Space {
     margin: 80px 200px;
     border: 1px solid rgba(112, 111, 111, 0.678);
 }
 
-.status-data div h2{
-color: #00FF88;
+.status-data div h2 {
+    color: #00FF88;
 }
+
+/* fucture area */
+.fucture {
+    background-color: #230E3D;
+    padding: 120px 200px;
+    text-align: center;
+}
+
+.fucture h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    height: 58px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #351165;
+    border-radius: 40px;
+    padding: 30px;
+    text-align: left;
+
+
+}
+
+.card h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+
+}
+
+.card p {
+    line-height: 24px;
+    color: #c7c0c0;
+}
+
+.card img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+
+#big-card {
+    grid-row: span 2;
+    height: auto;
+}
+
+.Big-long {
+    grid-column: span 2;
+    height: auto;
+}
+
