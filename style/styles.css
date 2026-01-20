@@ -279,7 +279,7 @@ nav button {
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
- 
+
     gap: 20px;
     text-align: center;
     align-items: center;
@@ -321,5 +321,102 @@ nav button {
 .Big-long {
     grid-column: span 2;
     height: auto;
+}
+
+.episodes {
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+    text-align: center;
+}
+
+.episodes .titel {
+    font-size: 48px;
+    font-weight: bold;
+    height: 58px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.flex-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+
+}
+
+.flex-card {
+    background-color: #250D44;
+    border-radius: 0 0 24px 24px;
+}
+
+.flex-card h2 {
+    color: #FFFFFF;
+    margin: 24px 24px 12px 24px;
+}
+
+.flex-card p {
+    color: #FFFFFF;
+    margin: 0 24px 12px 24px;
+    font-weight: 200;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin: 0 24px 12px 24px;
+    color: #00FF88;
+    gap: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    border-radius: 20px;
+    gap: 24px;
+
+}
+
+.Host {
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 20px;
+    height: 280px;
+}
+.info h2{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 39px;
+}
+
+.info p{
+    color: #ffffff;
+    line-height: 24px;
+    font-weight: 200;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  
+}
+
+.socile{
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #533C72;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
 }
 
